@@ -1,0 +1,39 @@
+# ====================================
+# Git Ignore - Aprendendo Java
+# ====================================
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos compilados do Java (Bytecode)
+**/out/
+**/bin/
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated
+
+# VS Code
+.vscode/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+
+# Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
