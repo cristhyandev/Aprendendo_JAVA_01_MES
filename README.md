@@ -1,6 +1,6 @@
 # ☕ Jornada Java Core: Do Zero ao Banco de Dados (30 Dias)
 
-Repositório dedicado ao registro prático da minha evolução no aprendizado de **Java** ao longo de 1 mês de estudos intensivos. O projeto foi estruturado em **20 passos progressivos**, partindo dos fundamentos da lógica imperativa até a integração completa com banco de dados relacional via JDBC puro.
+Repositório dedicado ao registro prático da minha evolução no aprendizado de **Java** ao longo de 1 mês de estudos intensivos. O projeto foi estruturado em **21 passos progressivos**, partindo dos fundamentos da lógica imperativa até a integração completa com banco de dados relacional via JDBC puro.
 
 > 👤 **Autor:** Cristhyan Gabriel Ferreira Duarte  
 > 🎯 **Foco:** Java Core, Programação Orientada a Objetos (POO), Coleções, Tratamento de Exceções e Persistência (PostgreSQL + JDBC).
@@ -11,7 +11,7 @@ Repositório dedicado ao registro prático da minha evolução no aprendizado de
 
 | Passo | Projeto / Domínio | Principais Conceitos Aplicados |
 | :---: | :--- | :--- |
-| **01** | [`PrimeirospassosJava`](./PrimeirospassosJava/README.md) | Entrada de dados com `Scanner`, tipos primitivos, estruturas condicionais e de repetição (`while`, `if/else`). |
+| **01** | [`PrimeiroPassoJava`](./PrimeiroPassoJava/README.md) | Entrada de dados com `Scanner`, tipos primitivos, estruturas condicionais e de repetição (`while`, `if/else`). |
 | **02** | [`SegundosPassosJava`](./SegundosPassosJava/README.md) | Criação e chamada de métodos com retorno, parâmetros e modularização de cálculos (descontos). |
 | **03** | [`TerceiropassoJava`](./TerceiropassoJava/README.md) | Introdução à Programação Orientada a Objetos: primeira classe (`Retangulo`), atributos e métodos de instância. |
 | **04** | [`QuartoPassoJava`](./QuartoPassoJava/README.md) | Modelagem de entidade com estado e comportamento (`ContaBancaria`: depósito, saque e saldo). |
@@ -32,6 +32,7 @@ Repositório dedicado ao registro prático da minha evolução no aprendizado de
 | **18** | [`DecimoOitavoPasso`](./DecimoOitavoPasso/README.md) | Validações defensivas com lançamento explícito de `IllegalArgumentException` em operações de saque bancário. |
 | **19** | [`DecimoNonoPasso`](./DecimoNonoPasso/README.md) | Arquitetura integrada em memória: Strategy Pattern + `Map<Integer, Transacao>` + Exceções customizadas. |
 | **20** | [`VigesimoPasso`](./VigesimoPasso/README.md) | **Persistência Relacional**: CRUD completo de pagamentos com **PostgreSQL** via **JDBC**, consultas com `INNER JOIN`, conexões via `try-with-resources` e proteção contra SQL Injection. |
+| **21** | [`VigesimoPrimeiroPasso`](./VigesimoPrimeiroPasso/README.md) | **Autenticação e Contratos**: Sistema de login e cadastro com interface `Login`, polimorfismo, proteção de credenciais e validação defensiva. |
 
 ---
 
@@ -60,7 +61,7 @@ Repositório dedicado ao registro prático da minha evolução no aprendizado de
 2. **Executando um passo:**
    - Clone o repositório:
      ```bash
-     git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+     git clone https://github.com/cristhyandev/Aprendendo_JAVA_01_MES.git
      ```
    - Abra a pasta do passo desejado na IDE e execute o arquivo `src/Main.java`.
 

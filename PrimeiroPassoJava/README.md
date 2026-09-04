@@ -1,4 +1,4 @@
-# 📌 Passo 01: Lógica Básica e Cálculos Geométricos (`PrimeirospassosJava`)
+# 📌 Passo 01: Lógica Básica e Cálculos Geométricos (`PrimeiroPassoJava`)
 
 ## 📝 O que o código faz
 Este programa é uma aplicação de console interativa para cálculo de área de figuras geométricas. Ao ser executado:
@@ -30,7 +30,7 @@ Este programa é uma aplicação de console interativa para cálculo de área de
 ---
 
 ## ▶️ Como Executar
-Na raiz da pasta `PrimeirospassosJava`:
+Na raiz da pasta `PrimeiroPassoJava`:
 ```bash
 javac src/Main.java -d out
 java -cp out Main
